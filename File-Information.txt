@@ -1,0 +1,8 @@
+All of the following .hex files are written in the raw LC-3 Assembly hex files to do each of the tasks:
+- hwAdd3Mem: Will add the first 3 numbers after the halt
+- hwAdd2Sub2Mem: Will add two numbers and then subtract the next two numbers stored in the memory after the halt 
+- hwBigSmall: Gets User input of 2 characters & prints out the biggest ASCII value followed by the smaller
+- hwPrintN-1: A simple loop program that loops n times & prints out the numbers decending
+
+The following .asm files are written in Assembly language, then compiled to get the raw hex files:
+- hwGet1Num: Two calls to a subroutine that checks users input for two digits to store in R0, ignores all other input
